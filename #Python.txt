@@ -1,0 +1,108 @@
+﻿#Basics
+non destructive: list
+destructive: append insert extend
+standard module: built in
+external module: non built in
+package: package of modules
+library: normal control module
+framework: control reversal module
+text data: easy to read data
+binary data: hard to read data
+encoding: binary into text
+decoding: text into binary
+privatevariable: private variable
+getter: get privatevariable @variable.getter
+setter: set privatevariable @variable.setter
+generator: define by yield and get by next()
+iterator: list, dictionary, tuple get by next()
+functiondecorator: modifies function
+classdecorator: modifies class
+
+#Operators
+string operator
++, -, *, [0], [1:4]
+number operator
++, -, *, /, **, //, %
+variable operator
++=,  -=,  *=,  /=,  %=,  **==
+boolean operator/*
+==,  !=,  <,  >,  <=,  >=
+eq: equal
+ne: not equal
+gt: greater than
+ge: greater than or equal
+lt: less than
+le: less than or equal
+not: changes true and false
+and: and
+or: or
+
+#Errors
+SyntaxError: syntax
+RuntimeError: runtime
+IndexError: range
+ValueError: function
+IndentationError: indentation
+NameError: name
+KeyError: key
+UnboundLocalError: using variable outside the function
+StopIteration: not able to find yield keyword after next function
+
+#Types
+number: (int,float)
+string: (str)
+boolean: (true, false)
+list: [element, index]
+dictionary: {key:value, key:value}
+tuple: non destructable list
+
+#Loops
+if boolean: meet condition
+else: doesn’t meet condition
+elif: rest of the if, else
+pass: hold
+break: stop
+continue: onto the next repeating
+try: code with possibility of exception
+except: code when exception
+else: code when no exception
+finally: code for all
+raise: raise error
+
+#Functions
+print(): prints
+format(): print by format
+type(): checks the type
+len(): calculates the length
+input(): place to input data
+int(): turns string into int
+float(): turns string into float
+str(): turns data into string
+upper(): uppercase letter
+lower(): lowercase letter
+strip(): removes space
+find(): first from the left
+rfind(): first from the right
+list(): lists the data
+min(): finds the minimum
+max(): finds the maximun
+sum(): calculates the sum
+reversed(): reverses list
+enumerate(): finds the index location of the list
+range(A): A-1
+range(A,B): A to B-1
+range(A,B,C): A to B-1, C interval
+file=open(“path”, “w/a/r”): open file
+file.close(): close file
+file.write(): write file
+file.read(): reade file
+
+#Module
+pip install module: installs module
+import module: imports module
+import module as a: use module
+from module import function: import module function
+module.function(): use module function
+__name__: module entrypoint
+__main__: program entrypoint
+__init__.py: package first module
